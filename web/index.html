@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="MetalLink CM — Marketplace de ferraille au Cameroun">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="MetalLink CM">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <title>MetalLink CM</title>
+  <link rel="manifest" href="manifest.json">
+  <style>
+    body {
+      background-color: #F8F6F2;
+      margin: 0;
+      padding: 0;
+    }
+    /* On desktop: show app in a mobile-sized centered frame */
+    @media (min-width: 768px) {
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 100vh;
+        background-color: #D8D4CF;
+      }
+      #app-wrap {
+        width: 390px;
+        min-height: 100vh;
+        background-color: #F8F6F2;
+        box-shadow: 0 0 60px rgba(0,0,0,0.18);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="app-wrap">
+    <script src="flutter_bootstrap.js" async></script>
+  </div>
+</body>
+</html>
